@@ -1,0 +1,28 @@
+{
+  "name": "nodeapp",
+  "version": "1.0.0",
+  "description": "Learning Node js and express",
+  "main": "app.js",
+  "scripts": {
+    "test": "Hello Node and express"
+  },
+  "author": "idr17",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.3"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/idr17/express.git"
+  },
+  "keywords": [
+    "node",
+    "js",
+    "native"
+  ],
+  "bugs": {
+    "url": "https://github.com/idr17/express/issues"
+  },
+  "homepage": "https://github.com/idr17/express#readme"
+}

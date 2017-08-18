@@ -1,0 +1,53 @@
+{% extends 'layout.html' %}
+
+{% block title %}{{ meta.title }}{% endblock %}
+{% block metaDescription %}{{ meta.description }}{% endblock %}
+{% block metaKeywords %}{{ meta.keywords }}{% endblock %}
+
+{% block content %}
+
+<div id="v5-container" class="clearfix">
+	<div class="kino-header">
+		<div class="kino-header-slider-wrapper">
+			<div class="kino-header-slider">
+				<div class="kino-header-slider-item"><img src="../public/image/header-1.jpg" alt=""></div>
+				<div class="kino-header-slider-item"><img src="../public/image/header-2.jpg" alt=""></div>
+			</div>
+			<div class="kino-header-slider-pagination"></div>
+		</div>
+		<div class="kino-header-social">
+			<div class="kino-header-social-follow">
+				<p class="kino-header-social-caption">FOLLOW US</p>
+				<div class="kino-header-social-container">
+					<a href="" class="kino-social-media facebook"></a>
+					<a href="" class="kino-social-media instagram"></a>
+				</div>
+			</div>
+			<div class="kino-header-social-share">
+				<p class="kino-header-social-caption">SHARE THIS</p>
+				<div class="kino-header-social-container">
+					<a href="" class="kino-social-media facebook"></a>
+					<a href="" class="kino-social-media twitter"></a>
+					<a href="" class="kino-social-media gplus"></a>
+					<p class="kino-social-media-counter">
+						<span class="kino-social-media-counter-count">625</span>
+						<span class="kino-social-media-counter-legend">SHARES</span>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="kino-infeed-wrapper">
+		<div class="kino-infeed-item-container" data-masonry='{"itemSelector": ".kino-infeed-item","columnWidth":".kino-infeed-item","percentPosition":true,"gutter":15}'>
+				
+			{% for item in data %}
+				<div class="kino-infeed-item">
+					<div class="kino-infeed-item-img"><img src="{{ item.image }}" alt=""></div>
+					<div class="kino-infeed-item-content"><a href="{{ item.url }}" class="kino-infeed-item-title">{{ item.title }}</a></div>
+				</div>
+			{% endfor %}
+					
+		</div>
+	</div>
+</div>
+{% endblock %}

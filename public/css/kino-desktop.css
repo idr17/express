@@ -1,0 +1,189 @@
+.kino-header{
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  border-bottom: 1px solid #CECECE;
+}
+.kino-header-slider{
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
+.kino-header-slider-item{
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+}
+.kino-header-slider-item img{
+  width: 100%;
+}
+.kino-header-slider-pagination{
+  position: relative;
+  text-align: center;
+  margin:15px auto;
+}
+.kino-header-slider-pagination ul{
+  display: inline-block;
+  list-style: none;
+  padding:0;
+}
+.kino-header-slider-pagination li{
+  display: inline-block;
+  width:11px;
+  height:11px;
+  margin:0 5px;
+  background: url(../image/pagging-slide.png);
+  background-repeat: no-repeat;
+}
+.kino-header-slider-pagination li.slick-active{
+  background-position: -16px 0;
+}
+.kino-header-slider-pagination ul button{
+  cursor: pointer;
+  opacity: 0;
+}
+.kino-header-social-caption{
+  font-size: 16px;
+  color: #858585;
+  margin-bottom: 10px;
+}
+.kino-header-social-follow{
+  display: inline-block;
+  width: 50%;
+  box-sizing: border-box;
+  padding-left: 40px;
+}
+.kino-header-social-share{
+  display: inline-block;
+  float:right;
+  box-sizing: border-box;
+  padding-right: 40px;
+}
+.kino-social-media{
+  display: inline-block;
+  vertical-align: middle;
+  width: 40px;
+  height: 40px;
+  background-size: 100% 200%;
+  background-repeat: no-repeat;
+}
+.kino-social-media:hover{
+  background-position: 0 106.24%;
+}
+.kino-social-media.facebook{
+  background-image: url(../image/facebook.png);
+}
+.kino-social-media.instagram{
+  background-image: url(../image/instagram.png);
+}
+.kino-social-media.gplus{
+  background-image: url(../image/G+.png);
+}
+.kino-social-media.twitter{
+  background-image: url(../image/twitter.png);
+}
+.kino-social-media-counter{
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 10px;
+}
+.kino-social-media-counter span{
+  display: block;
+  text-align: center;
+}
+.kino-social-media-counter-count{
+  font-size: 32px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+.kino-social-media-counter-legend{
+  font-size: 13px;
+  color: #858585;
+}
+.kino-infeed-item-container{
+  position: relative;
+  box-sizing: border-box;
+  padding:10px;
+}
+.kino-infeed-item{
+  display: inline-block;
+  position: relative;
+  width: 31.5%;
+  -webkit-box-shadow: 0px 0px 10px 1px #AAA;
+  box-shadow: 0px 0px 10px 1px #AAA;
+  margin-bottom:20px;
+}
+.kino-infeed-item-img{
+  position: relative;
+  width: 100%;
+}
+.kino-infeed-item-img img{
+  width: 100%;
+}
+.kino-infeed-item-content{
+  position: relative;
+  box-sizing: border-box;
+  padding:10px 10px 50px;
+}
+.kino-infeed-item-content:after{
+  content:'';
+  background: url(../image/kotak.jpg);
+  background-size: 100% 100%;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+.kino-infeed-item-title{
+  display: block;
+  font-size: 18px;
+  font-weight: bold;
+  color: #000;
+  line-height: 1.25em;
+  max-height: 3.75em;
+  overflow: hidden;
+}
+.kino-infeed-item-title:hover{
+  color: #FF8F9D;
+}
+.kino-infeed-pagination{
+  text-align: center;
+  position: relative;
+  margin-top: 30px;
+}
+.kino-infeed-pagination nav{
+  display: inline-block;
+  vertical-align: middle;
+}
+.kino-infeed-pagination nav a{
+  display: inline-block;
+  vertical-align: middle;
+  min-width: 40px;
+  height: 40px;
+  border: 1px solid #EC6207;
+  font-size: 24px;
+  font-family: 'Lato',sans-serif;
+  background: #FFF;
+  color: #EC6207;
+  white-space: nowrap;
+  position: relative;
+  text-align: center;
+  margin: 0 5px;
+}
+.kino-infeed-pagination nav a.active,
+.kino-infeed-pagination nav a:hover{
+  color: #FFF;
+  background: #EC6207;
+}
+.kino-infeed-pagination nav a span{
+  display: inline-block;
+  vertical-align: middle;
+}
+.kino-infeed-pagination nav a:after{
+  content:'';
+  display: inline-block;
+  vertical-align: middle;
+  width: 0;
+  height: 100%;
+}
