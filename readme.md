@@ -5,7 +5,7 @@
 <p>This code run localy (@127.0.0.1), clone / download and then you must provide mySql database (match your databse field that used in app.js). Basicly create table news with field : <pre>id, title, url and image</pre> Fill the databse with some of dummy data.</p>
 <p>Run command promp / shell then go to your folder downloaded before <pre>cd /path/to/downloadedfolder/</pre> then do <pre>node app.js</pre></p>
 <p>Go to browser and locate to localhost:8888</p>
-<p>You should see the web page and Finish</p>
+<p>You should see the web page :)</p>
 <h3>Built With</h3>
 <ul>
   <li>Node Js</li>
