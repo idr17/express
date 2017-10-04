@@ -15,5 +15,5 @@
   <li>Javascript</li>
 <ul>
 <h3>License</h3>
-<p>This project is licensed under the MIT License.</p>
+<p>This code is free/open source, licensed under the MIT License.</p>
   
