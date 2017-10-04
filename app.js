@@ -101,9 +101,9 @@ var home = function(req, res){
 			'path'	: './template/index.html',
 			'res' 	: result,
 			'meta'	: {
-				'title'			: 'Kalau Bukan Sekarang, Kapan Lagi? - KapanLagi.com', 
-				'description' 	: 'KapanLagi.com, situs entertainment terbesar di Indonesia. Berita, gosip, resensi film &amp; musik, foto, game, kartu ucapan, dan banyak lagi. Kalau bukan sekarang, Kapan Lagi?',
-				'keywords'		: 'berita, infotainment, gossip, gosip, artis, artis indonesia, indonesia, game, entertainment, film, bioskop, resensi, musik, seks, seksologi, zodiac, kartu ucapan, kartu, kartu lebaran'
+				'title'			: 'Single Page Website | duasedjoli.com', 
+				'description' 	: 'single page dengan native node js',
+				'keywords'		: 'single page, website, native nodejs, learning, skill up'
 				}
 		};
 		var compiledTemplate = template(rawData);
