@@ -14,6 +14,4 @@
   <li>CSS</li>
   <li>Javascript</li>
 <ul>
-<h3>License</h3>
-<p>This code is free/open source, licensed under the MIT License.</p>
   
